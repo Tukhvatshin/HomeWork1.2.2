@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Просмотр фотографий</string>
-    <string name="foto">Hello World!</string>
+    <string name="foto">Фотография</string>
+    <string name="button_back">Назад</string>
+    <string name="button_forward">Вперед</string>
+    <string name="success_subscription">http://myfile.org/%s</string>
 </resources>
