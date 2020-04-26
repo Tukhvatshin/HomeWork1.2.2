@@ -29,8 +29,9 @@ public class MainActivity extends AppCompatActivity {
         final TextView textView_link = (TextView) findViewById(R.id.textView_link);
 
         Random random = new Random();
-        int i = random.nextInt(1000) + 1;
+        final int i = random.nextInt(1000) + 1;
         textView_link.setText(getString(R.string.success_subscription, i));
+        my_foto.setText(getString(R.string.success_subscription1, i));
 
         Button button_forward = findViewById(R.id.button_forward);
         button_forward.setOnClickListener(new View.OnClickListener() {
